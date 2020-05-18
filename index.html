@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Seach State/City</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
-
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+  <body>
+    <script src="src/index.js"></script>
+    <div>
+      <form>
+        <input
+          type="text"
+          placeholder="city/state name"
+          name="city"
+          class="search"
+        />
+        <ul class="suggestions">
+          <li>Filter for a city</li>
+          <li>or a city</li>
+        </ul>
+      </form>
+    </div>
+  </body>
 </html>
